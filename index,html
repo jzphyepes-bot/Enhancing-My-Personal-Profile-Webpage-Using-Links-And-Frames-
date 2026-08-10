@@ -19,7 +19,7 @@
     <a href="#contact">Contact</a>
 
     <hr>
-    <img src="IMG_20260716_083838_240.jpg" alt="My Profile Picture" width="200" height="200">
+    <img src="<img width="2448" height="2448" alt="image" src="https://github.com/user-attachments/assets/607cfdaa-e973-4c63-9982-3d79331116b3" />" alt="My Profile Picture" width="200" height="200">
     <!-- About Me -->
     <h2 id="about">About Me</h2>
     <p>
