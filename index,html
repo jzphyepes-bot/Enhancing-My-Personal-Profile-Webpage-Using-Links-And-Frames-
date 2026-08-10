@@ -1,123 +1,136 @@
-# Enhancing-My-Personal-Profile-Webpage-Using-Links-And-Frames-
-# Enhancing-My-Personal-Profile-Webpage-Using-links-and-Frames
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>My Personal Profile</title>
 </head>
+
 <body>
 
-    <h1>Welcome to My Personal Profile</h1>
+<h1>Welcome to My Personal Profile</h1>
 
-    <hr>
+<hr>
 
-    <!-- Navigation Links -->
-    <h2>Navigation</h2>
-    <a href="#about">About Me</a> |
-    <a href="#education">Education</a> |
-    <a href="#hobbies">Hobbies</a> |
-    <a href="#contact">Contact</a>
+<!-- Navigation Links -->
+<h2>Navigation</h2>
 
-    <hr>
-    <img src="<img width="2448" height="2448" alt="image" src="https://github.com/user-attachments/assets/607cfdaa-e973-4c63-9982-3d79331116b3" />" alt="My Profile Picture" width="200" height="200">
-    <!-- About Me -->
-    <h2 id="about">About Me</h2>
-    <p>
-        Hello! My name is Joseph Kent Yepes. I am an ICT student
-        who is willing to learn more about coding and technology.
-    </p>
+<a href="#about">About Me</a> |
+<a href="#education">Education</a> |
+<a href="#hobbies">Hobbies</a> |
+<a href="#contact">Contact</a>
 
-    <!-- Education Table -->
-    <h2 id="education">Educational Information</h2>
+<hr>
 
-    <table border="1" cellpadding="10">
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Strand</th>
-        </tr>
-        <tr>
-            <td>Joseph Kent Yepes</td>
-            <td>17</td>
-            <td>ICT</td>
-        </tr>
-    </table>
+<!-- Profile Picture -->
+<img src="https://github.com/user-attachments/assets/607cfdaa-e973-4c63-9982-3d79331116b3"
+     alt="My Profile Picture"
+     width="200"
+     height="200">
 
-    <!-- Hobbies -->
-    <h2 id="hobbies">My Hobbies</h2>
-    <ul>
-        <li>Coding</li>
-        <li>Watching Videos</li>
-        <li>Listening to Music</li>
-        <li>Learning New Technologies</li>
-    </ul>
+<!-- About Me -->
+<h2 id="about">About Me</h2>
 
-    <!-- External Links -->
-    <h2>Favorite Websites</h2>
-    <p>
-        Visit my favorite websites:
-    </p>
+<p>
+    Hello! My name is Joseph Kent Yepes. I am an ICT student
+    who is willing to learn more about coding and technology.
+</p>
 
-    <ul>
-        <li><a href="https://www.google.com" target="_blank">Google</a></li>
-        <li><a href="https://github.com" target="_blank">GitHub</a></li>
-        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
-    </ul>
+<!-- Education Table -->
+<h2 id="education">Educational Information</h2>
 
-    <!-- Frame Example -->
-    <h2>My Favorite Website Preview</h2>
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Strand</th>
+    </tr>
 
-    <iframe
-        src="https://www.wikipedia.org"
-        width="700"
-        height="400"
-        title="Wikipedia">
-    </iframe>
+    <tr>
+        <td>Joseph Kent Yepes</td>
+        <td>17</td>
+        <td>ICT</td>
+    </tr>
+</table>
 
-    <!-- Contact -->
-    <h2 id="contact">Contact Information</h2>
+<!-- Hobbies -->
+<h2 id="hobbies">My Hobbies</h2>
 
-    <p>Email:
-        <a href="jzphyepes@gmail.com">
-            @jzphyepes.com
+<ul>
+    <li>Coding</li>
+    <li>Watching Videos</li>
+    <li>Listening to Music</li>
+    <li>Learning New Technologies</li>
+</ul>
+
+<!-- External Links -->
+<h2>Favorite Websites</h2>
+
+<p>
+    Visit my favorite websites:
+</p>
+
+<ul>
+    <li>
+        <a href="https://www.google.com" target="_blank">
+            Google
         </a>
-    </p>
+    </li>
 
-    <p>Facebook:
-        <a href="<a href="https://www.facebook.com/" target="_blank">">
-            Visit My Facebook
+    <li>
+        <a href="https://github.com" target="_blank">
+            GitHub
         </a>
-    </p>
+    </li>
 
-    <hr>
-    <h2>My Location</h2>
+    <li>
+        <a href="https://www.youtube.com" target="_blank">
+            YouTube
+        </a>
+    </li>
+</ul>
+
+<!-- Frame Example -->
+<h2>My Favorite Website Preview</h2>
 
 <iframe
-    <p>
-    <!-- Google Map Location -->
-<h2>My Location</h2>
-
-<h2>My Location</h2>
-
-<iframe
-    src="https://maps.google.com/maps?q=Lapu-Lapu%20City%20Cebu%20Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    src="https://www.wikipedia.org"
     width="700"
     height="400"
-    style="border:0;"
-    allowfullscreen=""
-    loading="lazy">
-</iframe>
-<p>
-    <a href="https://maps.google.com/?q=Robinsons+Easymart+Sudtungan+Road+Lapu-Lapu+City+Cebu" target="_blank">
-        View My Location on Google Maps
-    </a>
-</p>
-       View My Location on Google Maps
-    </a>
-</p>
+    title="Wikipedia">
 </iframe>
 
-    <p><b>My Personal Motto:</b> Practice makes progress.</p>
+<!-- Contact -->
+<h2 id="contact">Contact Information</h2>
+
+<p>
+    Email:
+    <a href="mailto:jzphyepes@gmail.com">
+        jzphyepes@gmail.com
+    </a>
+</p>
+
+<p>
+    Facebook:
+    <a href="https://www.facebook.com/" target="_blank">
+        Jzph Kentz
+    </a>
+</p>
+
+<hr>
+
+<!-- Location -->
+<h2>My Location</h2>
+
+<p>
+    I am from Cebu, Philippines.
+</p>
+
+<!-- Personal Motto -->
+<p>
+    <b>My Personal Motto:</b>
+    Practice makes progress.
+</p>
 
 </body>
 </html>
+```
