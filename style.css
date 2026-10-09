@@ -1,1 +1,148 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+
+    <style>
+        /* CSS Font and Color */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #dbeafe, #ede9fe, #fce7f3);
+            color: #1e293b;
+            line-height: 1.8;
+        }
+
+        /* CSS Text */
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px #312e81;
+        }
+
+        h2 {
+            color: #4338ca;
+            text-transform: capitalize;
+            border-bottom: 2px solid #a5b4fc;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 17px;
+            text-align: justify;
+            letter-spacing: 0.3px;
+        }
+
+        /* CSS Gradient */
+        header {
+            background: linear-gradient(120deg, #312e81, #7c3aed, #db2777);
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header p {
+            color: #f3e8ff;
+            text-align: center;
+        }
+
+        /* CSS Opacity */
+        .profile-card {
+            background-color: rgba(255, 255, 255, 0.85);
+            max-width: 750px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(49, 46, 129, 0.15);
+        }
+
+        .hobby {
+            background: linear-gradient(90deg, #6366f1, #a855f7);
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .quote {
+            background-color: rgba(124, 58, 237, 0.12);
+            padding: 15px;
+            border-left: 5px solid #7c3aed;
+            font-style: italic;
+            text-align: center;
+            color: #4c1d95;
+        }
+
+        footer {
+            background-color: rgba(30, 27, 75, 0.95);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+                letter-spacing: 1px;
+            }
+
+            .profile-card {
+                margin: 15px;
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Personal Profile</h1>
+        <p>Welcome to my personal webpage!</p>
+    </header>
+
+    <main class="profile-card">
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Your Name. I am a student who enjoys
+                learning new things, exploring technology, and improving
+                my skills. I always try my best to reach my goals.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Hobbies</h2>
+            <div class="hobby">Playing Online Games</div>
+            <div class="hobby">Listening to Music</div>
+            <div class="hobby">Learning Computer Skills</div>
+        </section>
+
+        <section>
+            <h2>My Goals</h2>
+            <p>
+                My goal is to finish my studies, improve my knowledge,
+                and build a successful future for myself and my family.
+            </p>
+        </section>
+
+        <section class="quote">
+            "Believe in yourself and never stop learning."
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Your Name | My Personal Profile</p>
+    </footer>
+
+</body>
+</html>
