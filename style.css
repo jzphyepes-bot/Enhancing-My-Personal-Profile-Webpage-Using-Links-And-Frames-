@@ -1,92 +1,277 @@
-         body {
-            margin: 0;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: linear-gradient(135deg, #dbeafe, #ede9fe, #fce7f3);
-            color: #1e293b;
-            line-height: 1.8;
-        }
+/* ==================================
+   GENERAL STYLING: FONT AND COLOR
+================================== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #1e293b;
+    background: linear-gradient(135deg, #dbeafe, #ede9fe, #fce7f3);
+}
 
-        /* CSS Text */
-        h1 {
-            font-size: 40px;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            color: #ffffff;
-            text-shadow: 2px 2px 5px #312e81;
-        }
+/* ==================================
+   HEADER: TEXT AND GRADIENT
+================================== */
+header {
+    background: linear-gradient(120deg, #312e81, #7c3aed, #db2777);
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
 
-        h2 {
-            color: #4338ca;
-            text-transform: capitalize;
-            border-bottom: 2px solid #a5b4fc;
-            padding-bottom: 5px;
-        }
+h1 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #312e81;
+}
 
-        p {
-            font-size: 17px;
-            text-align: justify;
-            letter-spacing: 0.3px;
-        }
+header p {
+    color: #f3e8ff;
+    text-align: center;
+}
 
-        /* CSS Gradient */
-        header {
-            background: linear-gradient(120deg, #312e81, #7c3aed, #db2777);
-            padding: 30px 20px;
-            text-align: center;
-        }
+/* ==================================
+   NAVIGATION
+================================== */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 3px 10px rgba(49, 46, 129, 0.1);
+}
 
-        header p {
-            color: #f3e8ff;
-            text-align: center;
-        }
+nav a {
+    color: #4338ca;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
 
-        /* CSS Opacity */
-        .profile-card {
-            background-color: rgba(255, 255, 255, 0.85);
-            max-width: 750px;
-            margin: 30px auto;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(49, 46, 129, 0.15);
-        }
+nav a:hover {
+    color: #ffffff;
+    background-color: #7c3aed;
+}
 
-        .hobby {
-            background: linear-gradient(90deg, #6366f1, #a855f7);
-            color: white;
-            padding: 12px;
-            margin: 10px 0;
-            border-radius: 8px;
-            font-weight: bold;
-            text-align: center;
-        }
+/* ==================================
+   MAIN CONTENT AND OPACITY
+================================== */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
 
-        .quote {
-            background-color: rgba(124, 58, 237, 0.12);
-            padding: 15px;
-            border-left: 5px solid #7c3aed;
-            font-style: italic;
-            text-align: center;
-            color: #4c1d95;
-        }
+.profile-card {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(49, 46, 129, 0.15);
+}
 
-        footer {
-            background-color: rgba(30, 27, 75, 0.95);
-            color: white;
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
-        }
+/* ==================================
+   HEADINGS AND PARAGRAPHS
+================================== */
+h2 {
+    color: #4338ca;
+    font-size: 25px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #a5b4fc;
+    padding-bottom: 5px;
+}
 
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 28px;
-                letter-spacing: 1px;
-            }
+h3 {
+    color: #6d28d9;
+    font-size: 20px;
+}
 
-            .profile-card {
-                margin: 15px;
-                padding: 18px;
-            }
-        }
+p {
+    font-size: 17px;
+    text-align: justify;
+    letter-spacing: 0.3px;
+}
+
+/* ==================================
+   PROFILE PICTURE
+================================== */
+.profile-picture {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-picture img {
+    display: inline-block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #a78bfa;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(49, 46, 129, 0.2);
+}
+
+/* ==================================
+   TABLES
+================================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+th {
+    color: #ffffff;
+    background: linear-gradient(90deg, #4338ca, #7c3aed);
+    text-align: left;
+}
+
+th,
+td {
+    border: 1px solid #c4b5fd;
+    padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(221, 214, 254, 0.4);
+}
+
+/* ==================================
+   LISTS
+================================== */
+li {
+    margin-bottom: 6px;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+/* ==================================
+   VIDEO AND AUDIO
+================================== */
+.video-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border: 2px solid #a78bfa;
+    border-radius: 10px;
+}
+
+.video-container iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+audio {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: 15px 0;
+}
+
+.note {
+    color: #64748b;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* ==================================
+   LINKS
+================================== */
+main a {
+    color: #6d28d9;
+}
+
+main a:hover {
+    color: #be185d;
+}
+
+/* ==================================
+   PERSONAL MOTTO: OPACITY
+================================== */
+.quote {
+    background-color: rgba(124, 58, 237, 0.12);
+    padding: 20px;
+    margin: 25px 0;
+    border-left: 5px solid #7c3aed;
+    border-radius: 8px;
+    font-style: italic;
+    text-align: center;
+    color: #4c1d95;
+}
+
+.quote h2 {
+    border-bottom: none;
+}
+
+.quote p {
+    text-align: center;
+}
+
+/* ==================================
+   FOOTER
+================================== */
+footer {
+    background-color: rgba(30, 27, 75, 0.95);
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+/* ==================================
+   RESPONSIVE DESIGN
+================================== */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    main {
+        width: auto;
+        margin: 15px;
+    }
+
+    .profile-card {
+        padding: 18px;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 5px 7px;
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 7px;
+        font-size: 14px;
+        overflow-wrap: anywhere;
+    }
+}
