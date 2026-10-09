@@ -1,14 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Profile</title>
-
-    <style>
-        /* CSS Font and Color */
-        body {
+         body {
             margin: 0;
             font-family: 'Segoe UI', Arial, sans-serif;
             background: linear-gradient(135deg, #dbeafe, #ede9fe, #fce7f3);
