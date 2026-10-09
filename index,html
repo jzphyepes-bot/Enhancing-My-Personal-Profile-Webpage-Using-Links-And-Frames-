@@ -1,137 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Profile</title>
-<link rel="stylesheet" href="style.css">
 
+    <!-- Connect to external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Welcome to My Personal Profile</h1>
+<header>
+    <h1>Welcome to My Personal Profile</h1>
+</header>
 
 <hr>
 
 <!-- Navigation Links -->
-<h2>Navigation</h2>
+<nav>
+    <h2>Navigation</h2>
 
-<a href="#about">About Me</a> |
-<a href="#education">Education</a> |
-<a href="#hobbies">Hobbies</a> |
-<a href="#contact">Contact</a>
-
-<hr>
-
-<!-- Profile Picture -->
-<img src="<img width="2448" height="2448" alt="image" src="https://github.com/user-attachments/assets/607cfdaa-e973-4c63-9982-3d79331116b3" />"
-     alt="My Profile Picture"
-     width="200"
-     height="200">
-
-<!-- About Me -->
-<h2 id="about">About Me</h2>
-
-<p>
-    Hello! My name is Joseph Kent Yepes. I am an ICT student
-    who is willing to learn more about coding and technology.
-</p>
-
-<!-- Education Table -->
-<h2 id="education">Educational Information</h2>
-
-<table border="1" cellpadding="10">
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Strand</th>
-    </tr>
-
-    <tr>
-        <td>Joseph Kent Yepes</td>
-        <td>17</td>
-        <td>ICT</td>
-    </tr>
-</table>
-
-<!-- Hobbies -->
-<h2 id="hobbies">My Hobbies</h2>
-
-<ul>
-    <li>Coding</li>
-    <li>Watching Videos</li>
-    <li>Listening to Music</li>
-    <li>Learning New Technologies</li>
-</ul>
-
-<!-- External Links -->
-<h2>Favorite Websites</h2>
-
-<p>
-    Visit my favorite websites:
-</p>
-
-<ul>
-    <li>
-        <a href="https://www.google.com" target="_blank">
-            Google
-        </a>
-    </li>
-
-    <li>
-        <a href="https://github.com" target="_blank">
-            GitHub
-        </a>
-    </li>
-
-    <li>
-        <a href="https://www.youtube.com" target="_blank">
-            YouTube
-        </a>
-    </li>
-</ul>
-
-<!-- Frame Example -->
-<h2>My Favorite Website Preview</h2>
-
-<iframe
-    src="https://www.wikipedia.org"
-    width="700"
-    height="400"
-    title="Wikipedia">
-</iframe>
-
-<!-- Contact -->
-<h2 id="contact">Contact Information</h2>
-
-<p>
-    Email:
-    <a href="mailto:jzphyepes@gmail.com">
-        jzphyepes@gmail.com
-    </a>
-</p>
-
-<p>
-    Facebook:
-    <a href="https://www.facebook.com/" target="_blank">
-        Jzph Kentz
-    </a>
-</p>
+    <a href="#about">About Me</a> |
+    <a href="#education">Education</a> |
+    <a href="#hobbies">Hobbies</a> |
+    <a href="#contact">Contact</a>
+</nav>
 
 <hr>
 
-<!-- Location -->
-<h2>My Location</h2>
+<main>
 
-<p>
-    I am from Cebu, Philippines.
-</p>
+    <!-- Profile Picture: Fixed the incorrect src attribute -->
+    <div class="profile">
+        <img
+            src="https://github.com/user-attachments/assets/607cfdaa-e973-4c63-9982-3d79331116b3"
+            alt="My Profile Picture"
+            width="200"
+            height="200">
+    </div>
 
-<!-- Personal Motto -->
-<p>
-    <b>My Personal Motto:</b>
-    Practice makes progress.
-</p>
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Joseph Kent Yepes. I am an ICT student
+            who is willing to learn more about coding and technology.
+        </p>
+    </section>
+
+    <!-- Education Table -->
+    <section id="education">
+        <h2>Educational Information</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Strand</th>
+            </tr>
+
+            <tr>
+                <td>Joseph Kent Yepes</td>
+                <td>17</td>
+                <td>ICT</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+
+        <ul>
+            <li>Coding</li>
+            <li>Watching Videos</li>
+            <li>Listening to Music</li>
+            <li>Learning New Technologies</li>
+        </ul>
+    </section>
+
+    <!-- External Links -->
+    <section id="websites">
+        <h2>Favorite Websites</h2>
+
+        <p>Visit my favorite websites:</p>
+
+        <ul>
+            <li>
+                <a href="https://www.google.com"
+                   target="_blank" rel="noopener noreferrer">
+                    Google
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com"
+                   target="_blank" rel="noopener noreferrer">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Favorite Website Preview -->
+    <section>
+        <h2>My Favorite Website Preview</h2>
+
+        <iframe
+            src="https://www.wikipedia.org"
+            width="700"
+            height="400"
+            title="Wikipedia Website Preview"
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+
+        <p>
+            Email:
+            <a href="mailto:jzphyepes@gmail.com">
+                jzphyepes@gmail.com
+            </a>
+        </p>
+
+        <p>
+            Facebook:
+            <a href="https://www.facebook.com/"
+               target="_blank" rel="noopener noreferrer">
+                Jzph Kentz
+            </a>
+        </p>
+    </section>
+
+    <!-- Location -->
+    <section>
+        <h2>My Location</h2>
+
+        <p>I am from Cebu, Philippines.</p>
+    </section>
+
+    <!-- Personal Motto -->
+    <section class="quote">
+        <h2>My Personal Motto</h2>
+
+        <p><strong>Practice makes progress.</strong></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>Created by Joseph Kent Yepes | My Personal Profile</p>
+</footer>
 
 </body>
 </html>
-```
